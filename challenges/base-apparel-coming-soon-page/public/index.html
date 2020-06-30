@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+  <script src="js/script.js"></script>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .button-style {
+      height: 3.1rem;
+      width: 4.5rem;
+    }
+
+    html,
+    body {
+      background: url(images/bg-pattern-desktop.svg) no-repeat;
+    }
+  </style>
+</head>
+
+<body class="font-body content-center">
+
+  <div class="md:flex md:flex-row-reverse">
+    <header class="md:w-2/3 md:m-auto">
+      <img src="images/logo.svg" alt="" class="px-6 py-4 md:absolute md:left-0 md:ml-40 md:mt-16">
+      <img src="images/hero-mobile.jpg" alt="" class="bg-cover w-full md:hidden">
+      <img src="images/hero-desktop.jpg" alt="" class="hidden object-cover h-screen w-full md:block">
+    </header>
+
+    <main class="mt-10 md:m-0 md:w-4/5 md:m-auto">
+      <section class="md:items-start text-center md:text-left">
+        <h1 class="uppercase w-64 md:w-1/2 tracking-widest text-5xl text-desaturated-red mx-auto">
+          <span>We're</span>
+          <span class="font-semibold text-dark-grayish-red">coming <br>soon</span>
+        </h1>
+
+        <p class="text-base w-84 md:w-1/2 mx-auto md:mt-4 text-desaturated-red font-light">Hello fellow shoppers! We're
+          currently building our new fashion store. Add your email below to stay up-to-date with announcements and our
+          launch deals.</p>
+
+        <div class="relative w-84 md:w-1/2 mt-8 text-center mx-auto text-left">
+          <label class="hidden" for="email">Email Address</label>
+          <input placeholder="Email Address" type="email" name="email" id="email-text"
+            class="text-desaturated-red placeholder-desaturated-red rounded-full border border-desaturated-red pl-6 pr-10 py-3 w-full focus:outline-none focus:border-soft-red focus:text-soft-red">
+
+          <button type="submit" onclick="onSubmit()"
+            class="absolute right-0 shadow-lg rounded-full bg-gradient-b-secondary-gradient button-style hover:shadow-inner focus:outline-none ">
+            <img src="images/icon-arrow.svg" alt="" class="w-3 mx-auto ">
+          </button>
+
+          <span class="absolute right-0 mr-20 mt-4 hidden" id="error-icon">
+            <img src="images/icon-error.svg" alt="" class="w-5 mx-auto">
+          </span>
+
+          <p class="text-left mt-2 pl-6 text-soft-red hidden" id="error-text">Please provide a valid email</p>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <!-- <footer class="md:hidden">
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Alfonso Vargas</a>.
+    </p>
+  </footer> -->
+</body>
+
+</html>

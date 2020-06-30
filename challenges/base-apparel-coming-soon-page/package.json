@@ -1,0 +1,28 @@
+{
+  "name": "base-apparel-coming-soon-master",
+  "version": "1.0.0",
+  "description": "![Design preview for the Base Apparel coming soon page coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss css/tailwind.css -o public/css/style.css",
+    "watch": "postcss css/tailwind.css -o public/css/style.css -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alfonsovgs/Base-apparel-coming-soon-page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alfonsovgs/Base-apparel-coming-soon-page/issues"
+  },
+  "homepage": "https://github.com/alfonsovgs/Base-apparel-coming-soon-page#readme",
+  "dependencies": {
+    "autoprefixer": "^9.7.5",
+    "postcss-cli": "^7.1.0",
+    "tailwindcss": "^1.2.0",
+    "tailwindcss-gradients": "^3.0.0"
+  }
+}

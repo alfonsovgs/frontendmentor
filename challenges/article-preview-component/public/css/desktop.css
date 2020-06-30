@@ -1,0 +1,43 @@
+@media (min-width: 1400px) {
+  .container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: row;
+    width: 900px;
+    height: 20rem;
+    margin-top: 0px;
+  }
+
+  .card__picture {
+    width: 400px;
+    height: 100%;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+
+  .card__body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .text-normal {
+    font-size: var(--font-size-normal-desktop);
+  }
+
+  .text-sm {
+    font-size: var(--font-size-sm-desktop);
+  }
+
+  /* .tooltip {
+    visibility: collapse;
+  } */
+}

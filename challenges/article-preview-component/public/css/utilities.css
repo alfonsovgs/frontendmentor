@@ -1,0 +1,71 @@
+.bg-very-dark-grayish-blue {
+  background-color: var(--very-dark-grayish-blue);
+}
+
+.bg-desaturated-dark-blue {
+  background-color: var(--desaturated-dark-blue);
+}
+
+.bg-grayish-blue {
+  background-color: var(--grayish-blue);
+}
+
+.bg-light-grayish-blue {
+  background-color: var(--light-grayish-blue);
+}
+
+.text-very-dark-grayish-blue {
+  color: var(--very-dark-grayish-blue);
+}
+
+.text-desaturated-dark-blue {
+  color: var(--desaturated-dark-blue);
+}
+
+.text-grayish-blue {
+  color: var(--grayish-blue);
+}
+
+.text-light-grayish-blue {
+  color: var(--light-grayish-blue);
+}
+
+.text-medium {
+  font-weight: 500;
+}
+
+.text-bold {
+  font-weight: 700;
+}
+
+.text-normal {
+  font-size: var(--font-size-normal);
+}
+
+.text-sm {
+  font-size: var(--font-size-sm);
+}
+
+.rounded {
+  border-radius: 100%;
+}
+
+.flex {
+  display: flex;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-items: center;
+}
+
+.m-auto {
+  margin: 0 auto;
+}
+
+.link {
+  cursor: pointer;
+}
